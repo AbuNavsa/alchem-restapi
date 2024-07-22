@@ -19,6 +19,8 @@ Follow these steps to set up the Python project repository:
    git clone https://github.com/AbuNavsa/alchem-restapi.git
    cd alchem-restapi
 
+   ```
+
 2. **Set Up a Virtual Environment**
 
 It's a best practice to use a virtual environment to manage your project’s dependencies. Create and activate a virtual environment with the following commands:
@@ -26,14 +28,13 @@ It's a best practice to use a virtual environment to manage your project’s dep
 `python -m venv venv`
 `source venv/bin/activate`
 
-3. **Install Requirements**  `pip install -r requirements.txt`
+3. **Install Requirements** `pip install -r requirements.txt`
 
 4. **Create database**
-`python create_db.py` If this doesn't work, try python3 instead of python
+   `python create_db.py` If this doesn't work, try python3 instead of python
 
-5. **Run system data generator to fill table repeatedly**  `python event_simulator.py`
+5. **Run system data generator to fill table repeatedly** `python create_db.py`
 
-7. **Run server**  `uvicorn main:app --reload`
+6. **Run server** `uvicorn main:app --reload`
 
 After this is running, head over to the Angular frontend and set up there
-
