@@ -26,20 +26,14 @@ It's a best practice to use a virtual environment to manage your project’s dep
 `python -m venv venv`
 `source venv/bin/activate`
 
-3. **Install Requirements**
-
-`pip install -r requirements.txt`
+3. **Install Requirements**  `pip install -r requirements.txt`
 
 4. **Create database**
-`python create_db.py` if this doesn't work, try python3 instead of python
+`python create_db.py` If this doesn't work, try python3 instead of python
 
-5. **Run system data generator to fill table repeatedly**
-6. 
-`python event_simulator.py`
+5. **Run system data generator to fill table repeatedly**  `python event_simulator.py`
 
-7. **Run server**
-   
-`uvicorn main:app --reload`
+7. **Run server**  `uvicorn main:app --reload`
 
 After this is running, head over to the Angular frontend and set up there
 
