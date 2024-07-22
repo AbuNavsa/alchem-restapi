@@ -22,8 +22,8 @@ Follow these steps to set up the Python project repository:
    ```
 
 2. **Set Up a Virtual Environment**
-
-It's a best practice to use a virtual environment to manage your project’s dependencies. Create and activate a virtual environment with the following commands:
+   Can skip this step
+   It's a best practice to use a virtual environment to manage your project’s dependencies. Create and activate a virtual environment with the following commands:
 
 `python -m venv venv`
 `source venv/bin/activate`
