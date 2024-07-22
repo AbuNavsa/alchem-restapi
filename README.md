@@ -33,7 +33,7 @@ Follow these steps to set up the Python project repository:
 4. **Create database**
    `python create_db.py` If this doesn't work, try python3 instead of python
 
-5. **Run system data generator to fill table repeatedly** `python event_simulator_db.py`
+5. **Run system data generator to fill table repeatedly** `python event_simulator.py`
    Keep this running whilst the UI is running as this is where the data comes from
 
 6. **Run server** `uvicorn main:app --reload`
