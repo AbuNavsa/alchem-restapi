@@ -38,7 +38,7 @@ It's a best practice to use a virtual environment to manage your project’s dep
 `python event_simulator.py`
 
 7. **Run server**
-8. 
+   
 `uvicorn main:app --reload`
 
 After this is running, head over to the Angular frontend and set up there
