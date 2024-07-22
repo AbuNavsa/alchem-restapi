@@ -2,14 +2,6 @@
 
 Welcome to the Python Project repository. This project is a Python application designed to be set up and run with ease. Follow the instructions below to get started.
 
-## Table of Contents
-
-1. [Prerequisites](#prerequisites)
-2. [Setup Instructions](#setup-instructions)
-3. [Running the Application](#running-the-application)
-4. [Running Tests](#running-tests)
-5. [Troubleshooting](#troubleshooting)
-
 ## Prerequisites
 
 Ensure you have the following software installed:
@@ -42,9 +34,11 @@ It's a best practice to use a virtual environment to manage your project’s dep
 `python create_db.py` if this doesn't work, try python3 instead of python
 
 5. **Run system data generator to fill table repeatedly**
+6. 
 `python event_simulator.py`
 
-6. **Run server
+7. **Run server**
+8. 
 `uvicorn main:app --reload`
 
 After this is running, head over to the Angular frontend and set up there
