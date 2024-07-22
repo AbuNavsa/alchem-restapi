@@ -16,8 +16,8 @@ Follow these steps to set up the Python project repository:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/your-python-repo.git
-   cd your-python-repo
+   git clone https://github.com/AbuNavsa/alchem-restapi.git
+   cd alchem-restapi
 
 2. **Set Up a Virtual Environment**
 
